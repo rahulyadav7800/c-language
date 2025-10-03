@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main(){
+	float num1, num2;
+	scanf("%f %f",&num1, &num2);
+	int result;
+	result = (int)num1+(int)num2;
+	printf("%d",result);
+} 
