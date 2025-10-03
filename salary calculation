@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main(){
+	int total_working_hour;
+	float salary_per_day;
+	scanf("%d",&total_working_hour);
+	scanf("%f",&salary_per_day);
+	printf("%.2f",total_working_hour*salary_per_day);
+}
