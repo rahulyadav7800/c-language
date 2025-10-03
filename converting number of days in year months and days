@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	int NO_OF_DAYS, years, months, days;
+	scanf("%d",&NO_OF_DAYS);
+	years = NO_OF_DAYS / 365;
+	months = (NO_OF_DAYS % 365) / 30;
+	days = (NO_OF_DAYS % 365) % 30;
+	printf("%d Y(s) %d M(s) %d D(s)",years, months, days);
+	return 0;
+}
