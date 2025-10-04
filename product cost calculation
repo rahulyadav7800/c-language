@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+	float price;
+	int quantity;
+	scanf("%f",&price);
+	scanf("%d",&quantity);
+	printf("%.2f",price*quantity);
+	return 0;
+}
