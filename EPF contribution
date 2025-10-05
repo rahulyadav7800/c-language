@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+	float BP,Employee_fund,Employer_fund;
+	scanf("%f",&BP);
+	Employee_fund = (BP/100)*17.5;
+	Employer_fund = (BP/100)*23.5;
+	printf("%.2f\n",Employee_fund);
+	printf("%.2f",Employer_fund);
+	return 0;
+}
