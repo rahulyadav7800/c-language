@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main(){
+	int n,i,r;
+	scanf("%d",&n);
+	if(n>0){
+	for(i=n;i!=0;i=i/10){
+		r=i%10;
+		printf("%d",r);
+	}
+		}else{
+		printf("-");
+		for(i=n;i!=0;i=i/10){
+		r=i%10;
+		printf("%d",-r);
+	}
+	}
+	
+}
